@@ -22,18 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Email already exists!";
         exit();
     }
-
-    // if ($password === $confirm_password) {
-    //     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-    //     // $hashed_password=md5($password);
-    //     $stmt = $conn->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
-    //     $stmt->bind_param("ss", $username, $hashed_password);
-    //     $stmt->execute();
-    //     $stmt->close();
-    //     echo "login successful!";
-    // } else {
-    //     echo "Passwords do not match!";
-    // }
 }
 ?>
 
